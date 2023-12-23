@@ -72,6 +72,26 @@ ul {
 
 }
 
+.dropdown-content {
+    display: none;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    background-color: #f9f9f9;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+}
+
+.dropdown-content button {
+    display: flex;
+    width: 100%;
+    padding: 8px;
+    text-align: left;
+    border: none;
+    background-color: inherit;
+    cursor: pointer;
+}
+
 header ul li a {
     font-family: 'Plus Jakarta Sans', sans-serif;
     color: var(--tertiaryColor);
